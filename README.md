@@ -5,7 +5,7 @@ A blog powered by Django backend and utilizes its templating system for the fron
 GraphQL has been implemented and REST taken down.
 Here is a sneak peak of the assestment:
 
-![Preview of the Blog](https://github.com/d1-dblaze/CodeImages.git/blogPreview.png)
+![Preview of the Blog](https://github.com/d1-dblaze/CodeImages.io/blogPreview.png)
 
 GraphQL playground and Queries
 
