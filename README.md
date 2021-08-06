@@ -13,4 +13,4 @@ GraphQL playground and Queries
 
 ![Get article by unique slug](https://github.com/d1-dblaze/CodeImages/blob/main/ByUniqueSlug.png)
 
-![Query with comments](https://github.com/d1-dblaze/CodeImages/blob/main/WithComment.png)
+![Query with comments](https://github.com/d1-dblaze/CodeImages/blob/main/With%20Comment.png)
