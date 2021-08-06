@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myblog.apps.MyblogConfig',
-    'rest_framework',
     'corsheaders',
+    'graphene_django'
 ]
 
 MIDDLEWARE = [
@@ -124,12 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-           'rest_framework.permissions.AllowAny',
-    ]
+GRAPHENE = {
+    "SCHEMA":"myblog.schema.schema",    #graphql schema
 }
-
-CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/'       #for the react app
-)
